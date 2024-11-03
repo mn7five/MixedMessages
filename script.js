@@ -32,4 +32,9 @@ for(let propertyName in messageComponents) {
     }
 }
 
-
+function formatMixedMessages(wisdom) {
+    const formatted = mixedMessages.join('\n')
+    console.log(formatted)
+}
+    
+formatMixedMessages(mixedMessages);
